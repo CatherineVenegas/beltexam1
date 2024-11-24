@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-adopta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Adopta Tu Arbol</title>
+</head>
+<body>
+    <header>
+        <h3 class="text-s"> Tu plataforma favorita de adopción de árboles </h3>
+    </header>
+    <div class="main-container">
+        <div class="menu">
+            <h1> <span id="adopta">Adopta</span><span id="tu">Tu</span><span id="arbol">Árbol</span></h1>
+            <div class="space">
+                <button class="big"> Adoptar </button>
+                <button class="big" id="thanks"> Donar </button>
+            </div>
+        </div>
+
+        <div class="menu-2"> 
+            <p id="type-tree" class="text-m"> Mostrando: Todos los Árboles </p>
+        <select id="options">
+            <option value="Mostrando: Todos los Árboles">Todos los Árboles</option>
+            <option value="Mostrando: Árboles Frutales">Árboles Frutales</option>
+            <option value="Mostrando: Árboles de Flores">Árboles de Flores</option>
+            <option value="Mostrando: Árboles Ornamentales">Árboles Ornamentales</option>
+        </select>
+        </div>
+
+        <div class="content">
+            <div class="tree-box">
+                <img src="img/alamo.jpg" alt="Álamo">
+                <div class="text-box">
+                    <h2 class="text-xl"> Álamo </h2>
+                    <p class="text-xs"> Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
+                </div>
+                <button class="small adoptar"> Adoptar </button>
+            </div>
+
+            <div class="tree-box">
+                <img src="img/fresno.jpg" alt="Fresno">
+                <div class="text-box">
+                    <h2 class="text-xl"> Fresno </h2>
+                    <p class="text-xs"> Árbol con tronco recto y cilíndrico, con amplica copa.</p>
+                </div>
+                <button class="small adoptar"> Adoptar </button>
+            </div>
+
+            <div class="tree-box">
+                <img src="img/pino.jpg" alt="Pino">
+                <div class="text-box">
+                    <h2 class="text-xl"> Pino </h2>
+                    <p class="text-xs"> Árbol de la familia de las abietáceas, de tronco elevado, recto.</p>
+                </div>
+                <button class="small adoptar" > Adoptar </button>
+            </div>
+
+            <div class="tree-box">
+                <img src="img/jacaranda.jpg" alt="Jacarandá">
+                <div class="text-box">
+                    <h2 class="text-xl"> Jacarandá </h2>
+                    <p class="text-xs"> Árbol de copa extendida y redondeada con flores moradas.</p>
+                </div>
+                <button class="small adoptar"> Adoptar </button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="left-box">
+                <div class="box">
+                    <h4 class="text-xl"> Contáctanos </h4>
+                    <p class="text-xs">Av.Principal #123 <br> Ciudad Palma, 10000 Chile</p>
+                </div>
+
+                <div class="box">
+                    <a href="index-adopta.html" class="text-s">Inicio</a>
+                    <a href="index-adopta.html" class="text-s">Sobre Nosotros</a>
+                    <a href="index-adopta.html" class="text-s">Adopta un Árbol</a>
+                </div>
+
+                <div class="box">
+                    <a href="index-adopta.html" class="text-s">Contacto</a>
+                    <a href="index-adopta.html" class="text-s">Patrocinadores</a>
+                    <a href="index-adopta.html" class="text-s">Proyectos</a>
+                </div>
+            </div>
+
+            <div class="right-box">
+                <h4 class="text-xl"> Suscríbete </h4>
+                <input type="email" name="email" placeholder="usuario@correo.com" id="email" class="text-xs">
+                <input type="submit" class="send">
+
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script-adopta.js"></script>
+</body>
+</html>
